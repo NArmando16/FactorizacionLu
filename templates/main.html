@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Factorización LU</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">   
+</head>
+<body>
+<div class="contenedor">
+    <h1>Factorización LU</h1>
+    <!-- Slider -->
+    <input type="range" min="4" max="10" value="7" class="slider" id="slider">
+    <span id="slider-value">7</span>
+    <!-- Botón -->
+    <button>Confirmar</button>
+  
+
+    <div class="imagen-container" style="display:none;">
+        <div>
+            <h2>Matriz:</h2>
+            <img id="imagen_matriz" src="" alt="Imagen de la matriz">
+
+        </div>
+        
+        <div>
+            <h2>Matriz Permutacion:</h2>
+            <img id="imagen_P" src="" alt="Imagen de la matriz">
+        </div>
+    </div>
+    <div class="image-container" style="display:none;">
+        <div>
+            <h2>Matriz L:</h2>
+            <img id="imagen_L" src="" alt="Imagen de la matriz">
+        </div>
+        <div>
+            <h2>Matriz U:</h2>
+            <img id="imagen_U" src="" alt="Imagen de la matriz">
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

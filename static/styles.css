@@ -1,0 +1,50 @@
+body {
+    background-color: #2B1C1C; /* Fondo guinda */
+}
+.contenedor {
+    width: 1280px;
+    height: 1880px;
+    background-color: #9B4D4D;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; /* Centro todo el contenido */
+    color: white; /* Texto blanco */
+}
+h1 {
+    font-size: 100px;
+    text-shadow: 4px 2px 4px black; /* Delineado negro */
+}
+.slider, button {
+    display: block; /* Para centrar */
+    margin: 20px auto; /* Centrar */
+    width: 400px; /* Ancho aumentado */
+    height: 50px; /* Altura aumentada */
+    font-size: 18px; /* Tamaño de fuente aumentado */
+}
+button {
+    background-color: #FFCA62; /* Color de fondo amarillo */
+    color: white; /* Texto blanco */
+    width: 200px;
+    text-shadow: 2px 2px 2px black; 
+    border-radius: 10px;
+}
+img {
+    width: 500px; /* Tamaño de las imágenes */
+    height: 500px;
+    margin: 10px; /* Espacio entre las imágenes */
+}
+.imagen-container {
+    display: flex;
+    justify-content: space-between;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto {
+    width: 300px; /* Ancho de los bloques de texto */
+    margin: 10px auto; /* Espacio entre los bloques de texto */
+    text-align: center;
+}
